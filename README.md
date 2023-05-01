@@ -20,8 +20,8 @@ By identifying the variables that are most predictive of customer churn, busines
 1. [First Organization](#step1)
 2. [Second Step: Data Preprocessing](#step2)
 3. [Third and Final Step: Modeling](#step3)
-3. [Conclusion and Further Analysis Ideas](#step4)
-4. [Dataset](#dataset)
+4. [Conclusion and Further Analysis Ideas](#step4)
+   [Dataset](#dataset)
 
 <a name="step1"></a>
 ## 1. First Organization
@@ -63,14 +63,13 @@ Tuning in this step can help to improve each model to get their best ability.
 
 <a name="step4"></a>
 
-## Conclusion and Further Analysis Ideas
+## 4. Conclusion and Further Analysis Ideas
 
-From the results of our experiments, we can observe that the Random Forest and Gradient Boosting Classifier models outperformed the other models<br>
-in terms of test recall and accuracy.These models have achieved values of around 76% in both recall and accuracy metrics, respectively.
-There are a lot of analysis outputs above in all steps of this analysis.<br>
+From the results of our experiments, we can observe that the Random Forest and Gradient Boosting Classifier models outperformed the other models in terms of test recall and accuracy.
+These models have achieved values of around 76% in both recall and accuracy metrics, respectively.
+There are a lot of analysis outputs above in all steps of this analysis.
 Some of them, like correlation analysis, can be used in modeling.
-Exploring the most important features that contribute to the Random Forest and Gradient Boosting Classifier models' performance can help to determine<br>
-whether these features are relevant or could be modified to improve the models' performance.
+Exploring the most important features that contribute to the Random Forest and Gradient Boosting Classifier models' performance can help to determine whether these features are relevant or could be modified to improve the models' performance.
 Performing hyperparameter tuning for each model to improve their performance have been done, but it can be more than what there is in this project.
 Dealing with outliers can also help improving models' performance which here has been ignored.
 
@@ -80,4 +79,4 @@ Dealing with outliers can also help improving models' performance which here has
 
 The data we have used in this project was downloaded from <a href = "https://www.kaggle.com/datasets/blastchar/telco-customer-churn" style="text-decoration:none;" target="_blank"> Kaggle</a>. 
 There are more useful information about this dataset in the notebook.
-You can also access the notebook uploaded on kaggle website through <a href = "https://www.kaggle.com/datasets/athirags/car-data" style="text-decoration:none;" target="_blank"> this link</a>. 
+You can also access the notebook uploaded on kaggle website through <a href = "https://www.kaggle.com/code/mamishere/customer-churn-complete-analysis-and-prediction/notebook" style="text-decoration:none;" target="_blank"> this link</a>. 
